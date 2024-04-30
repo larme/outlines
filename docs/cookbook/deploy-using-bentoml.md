@@ -4,9 +4,9 @@
 
 In this guide, we will show you how to use BentoML to run programs written with Outlines on GPU locally and in [BentoCloud](https://www.bentoml.com/), an AI Inference Platform for enterprise AI teams. The example source code in this guide is also available in the [examples/bentoml/](https://github.com/outlines-dev/outlines/blob/main/examples/bentoml/) directory.
 
-## Import model
+## Import a model
 
-First we need to download the Mistral-7B-v0.1 model and import the model into BentoML's model store. Let's install the BentoML and other dependencies from PyPi (preferably in a virtual environment):
+First we need to download an LLM (Mistral-7B-v0.1 in this example and you can use any other LLM) and import the model into BentoML's [Model Store](https://docs.bentoml.com/en/latest/guides/model-store.html). Let's install BentoML and other dependencies from PyPi (preferably in a virtual environment):
 
 ```bash
 pip install -r requirements.txt
