@@ -2,7 +2,7 @@
 
 [BentoML](https://github.com/bentoml/BentoML) is an open-source model serving library for building performant and scalable AI applications with Python. It comes with tools that you need for serving optimization, model packaging, and production deployment.
 
-In this guide, we will show you how you can use BentoML to run programs written with Outlines on GPU locally and in the cloud. The example source codes in this guide are also available at [examples/bentoml/](https://github.com/outlines-dev/outlines/blob/main/examples/bentoml/) directory.
+In this guide, we will show you how to use BentoML to run programs written with Outlines on GPU locally and in [BentoCloud](https://www.bentoml.com/), an AI Inference Platform for enterprise AI teams. The example source code in this guide is also available in the [examples/bentoml/](https://github.com/outlines-dev/outlines/blob/main/examples/bentoml/) directory.
 
 ## Import model
 
