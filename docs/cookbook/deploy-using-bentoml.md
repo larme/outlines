@@ -163,7 +163,7 @@ The server is now active at <http://localhost:3000>. You can interact with it us
 
 ```bash
 curl -X 'POST' \
-  'http://rtxbox.jkdf.win:3000/generate' \
+  'http://localhost:3000/generate' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
