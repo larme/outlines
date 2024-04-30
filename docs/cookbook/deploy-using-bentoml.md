@@ -43,7 +43,9 @@ if __name__ == "__main__":
     import_model(MODEL_ID, BENTO_MODEL_TAG)
 ```
 
-## Define BentoML service
+## Define a BentoML Service
+
+As the model is ready, we can define a [BentoML Service](https://docs.bentoml.com/en/latest/guides/services.html) to wrap the capabilities of the model.
 
 We will run the JSON-structured generation example [in the README](https://github.com/outlines-dev/outlines?tab=readme-ov-file#efficient-json-generation-following-a-json-schema), with the following schema:
 
