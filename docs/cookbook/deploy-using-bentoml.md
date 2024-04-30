@@ -143,9 +143,9 @@ We then need to define an HTTP endpoint using `@bentoml.api` to decorate the met
         return character
 ```
 
-Here `@bentoml.api` decorator defines `generate` as an HTTP endpoint that accept a JSON request body with 2 fields: `prompt` and `json_schema` (optional, which let http client to provide their own JSON schema). The type hints in the function signature will be used to validate incoming JSON request. You can define as many HTTP endpoints as you want by using `@bentoml.api` to decorate other methods of `Outlines` class.
+Here `@bentoml.api` decorator defines `generate` as an HTTP endpoint that accepts a JSON request body with two fields: `prompt` and `json_schema` (optional, which allows HTTP clients to provide their own JSON schema). The type hints in the function signature will be used to validate incoming JSON requests. You can define as many HTTP endpoints as you want by using `@bentoml.api` to decorate other methods of `Outlines` class.
 
-Now you can save the above codes to `service.py` (or use [this implementation](https://github.com/outlines-dev/outlines/blob/main/examples/bentoml/)). Let's now see how to run the code on the cloud using the BentoML CLI.
+Now you can save the above code to `service.py` (or use [this implementation](https://github.com/outlines-dev/outlines/blob/main/examples/bentoml/)), and run the code using the BentoML CLI.
 
 ## Run locally for testing and debugging
 
