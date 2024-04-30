@@ -12,7 +12,9 @@ First we need to download an LLM (Mistral-7B-v0.1 in this example and you can us
 pip install -r requirements.txt
 ```
 
-Then save the code snippet below as `import_model.py` and run `python import_model.py`
+Then save the code snippet below as `import_model.py` and run `python import_model.py`.
+
+**Note**: You need to accept related conditions on [Hugging Face](https://huggingface.co/mistralai/Mistral-7B-v0.1) first to gain access to Mistral-7B-v0.1.
 
 ```python
 import bentoml
