@@ -189,7 +189,16 @@ with bentoml.SyncHTTPClient("http://localhost:3000") as client:
 
 </details>
 
+Expected output:
 
+```bash
+{
+  "name": "Aura",
+  "age": 15,
+  "armor": "plate",
+  "weapon": "sword",
+  "strength": 20
+}
 ## Deploy to the cloud
 
 After the Service is ready, you can deploy the application to BentoCloud for better management and scalability. [Sign up](https://www.bentoml.com/) if you haven't got a BentoCloud account.
