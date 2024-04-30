@@ -43,6 +43,13 @@ if __name__ == "__main__":
     import_model(MODEL_ID, BENTO_MODEL_TAG)
 ```
 
+You can verify the download is successful by running:
+
+```bash
+$ bentoml models list
+
+Tag                                          Module  Size        Creation Time
+mistralai--mistral-7b-v0.1:m7lmf5ac2cmubnnz          13.49 GiB   2024-04-25 06:52:39
 ## Define a BentoML Service
 
 As the model is ready, we can define a [BentoML Service](https://docs.bentoml.com/en/latest/guides/services.html) to wrap the capabilities of the model.
